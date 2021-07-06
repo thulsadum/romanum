@@ -7,3 +7,7 @@ def test_should_be_i():
 
 def test_should_be_v():
     assert to_roman(5) == "V"
+
+
+def test_should_be_x():
+    assert to_roman(10) == "X"
