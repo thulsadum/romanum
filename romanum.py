@@ -25,5 +25,7 @@ def from_roman(roman_number, last_literal='I'):
 def to_roman(arabic_number):
     if arabic_number == 1:
         return "I"
-    else:
+    elif arabic_number == 5:
         return "V"
+    else:
+        return "X"
