@@ -23,17 +23,15 @@ def from_roman(roman_number, last_literal='I'):
 
 
 def to_roman(arabic_number):
-    if arabic_number == 1:
-        return "I"
-    elif arabic_number == 5:
-        return "V"
-    elif arabic_number == 10:
-        return "X"
-    elif arabic_number == 50:
-        return "L"
-    elif arabic_number == 100:
-        return "C"
-    elif arabic_number == 500:
-        return "D"
-    elif arabic_number == 1000:
-        return "M"
+    literal_basis = {
+        1: "I",
+        5: "V",
+        10: "X",
+        50: "L",
+        100: "C",
+        500: "D",
+        1000: "M",
+    }
+
+    if arabic_number in literal_basis.keys():
+        return literal_basis[arabic_number]
