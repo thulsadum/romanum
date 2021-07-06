@@ -23,4 +23,4 @@ def from_roman(roman_number, last_literal='I'):
 
 
 def to_roman(arabic_number):
-    return ""
+    return "I"
