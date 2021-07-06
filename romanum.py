@@ -27,5 +27,13 @@ def to_roman(arabic_number):
         return "I"
     elif arabic_number == 5:
         return "V"
-    else:
+    elif arabic_number == 10:
         return "X"
+    elif arabic_number == 50:
+        return "L"
+    elif arabic_number == 100:
+        return "C"
+    elif arabic_number == 500:
+        return "D"
+    elif arabic_number == 1000:
+        return "M"
