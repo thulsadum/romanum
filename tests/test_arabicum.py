@@ -27,3 +27,7 @@ def test_should_be_d():
 
 def test_should_be_m():
     assert to_roman(1000) == "M"
+
+
+def test_should_be_ii():
+    assert to_roman(2) == "II"
