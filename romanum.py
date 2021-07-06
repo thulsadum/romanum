@@ -1,4 +1,3 @@
-
 def from_roman(roman_number, last_literal='I'):
     roman_literals = {
         "I": 1,
@@ -21,3 +20,7 @@ def from_roman(roman_number, last_literal='I'):
         return from_roman(current_literal) + from_roman(rest)
     else:
         return -from_roman(current_literal) + from_roman(rest)
+
+
+def to_roman(arabic_number):
+    return ""
