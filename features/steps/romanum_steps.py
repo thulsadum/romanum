@@ -21,7 +21,7 @@ def step_impl(context):
     context.result = from_roman(context.roman_number)
 
 
-@then("it should match {arabic_number:d}")
+@then("it should match arabic numeral {arabic_number:d}")
 def step_impl(context, arabic_number):
     """
     :type context: behave.runner.Context
