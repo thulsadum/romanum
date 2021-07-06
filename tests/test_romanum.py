@@ -27,3 +27,15 @@ def test_should_be_500():
 
 def test_should_be_1000():
     assert from_roman("M") == 1000
+
+
+def test_should_be_two():
+    assert from_roman("II") == 2
+
+
+def test_should_be_three():
+    assert from_roman("III") == 3
+
+
+def test_should_be_four():
+    assert from_roman("IV") == 4
